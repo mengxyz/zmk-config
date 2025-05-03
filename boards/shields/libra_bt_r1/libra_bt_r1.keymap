@@ -16,24 +16,24 @@
                 &kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BSCP &kp BSCP
                 &kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SCLN &kp ENTER
                 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp XX &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                &kp LGUI &kp LALT      &mo 1       &kp SPACE       &kp SPACE &mo 2             &kp LBKT &kp RBKT
+                &kp LGUI &kp LALT      &trans       &kp SPACE       &kp SPACE &trans             &kp LBKT &kp RBKT
             >;
         };
-        second_layer {
-            bindings = <
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans
-            >;
-        };
-        third_layer {
-            bindings = <
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans
-            >;
-        };
+        // second_layer {
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans
+        //     >;
+        // };
+        // third_layer {
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans
+        //     >;
+        // };
     };
 };

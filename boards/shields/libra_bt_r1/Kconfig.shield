@@ -1,2 +1,2 @@
-config LIBRA_BT_R1
-    def_boot $(shields_list_contains, libra_bt_r1)
+config SHIELD_LIBRA_BT_R1
+    def_bool $(shields_list_contains,libra_bt_r1)
