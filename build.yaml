@@ -23,4 +23,3 @@ include:
   - board: seeeduino_xiao_ble
     shield: libra_bt_r1
   - board: nice60
-    shield: libra_bt_r1
