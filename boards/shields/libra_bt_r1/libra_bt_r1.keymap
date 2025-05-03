@@ -1,39 +1,19 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
-		// KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,   /**/  KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,  KC_BSPC, 
-		// KC_TAB,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,   /**/  KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_ENTER, 
-		// KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,   /**/  KC_NO,   KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, 
-		// KC_LGUI, KC_LALT, 		   MO(1),   KC_SPC, 	     /**/  KC_SPC,   		 MO(2),				        KC_LBRC, KC_RBRC
-
-        default_layer {
-            bindings = <
+        default {
+           bindings = <
                 &kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BSCP &kp BSCP
                 &kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SCLN &kp ENTER
-                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &trans &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                &kp LGUI &kp LALT      &trans       &kp SPACE       &kp SPACE &trans             &kp LBKT &kp RBKT
+                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &none &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+                &kp LGUI &kp LALT      &none       &kp SPACE       &kp SPACE &none             &kp LBKT &kp RBKT
             >;
         };
-        // second_layer {
-        //     bindings = <
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans
-        //     >;
-        // };
-        // third_layer {
-        //     bindings = <
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        //         &trans &trans &trans &trans &trans &trans &trans &trans
-        //     >;
-        // };
     };
 };
