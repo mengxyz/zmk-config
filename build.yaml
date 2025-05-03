@@ -19,5 +19,6 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
+  # - board: nrf52840dk_nrf52840
+  - board: seeeduino_xiao_ble
     shield: libra_bt_r1
