@@ -1,0 +1,6 @@
+if SHIELD_LIBRA_BT_R1
+
+config ZMK_KEYBOARD_NAME
+    default "Libra BT R1"
+
+endif

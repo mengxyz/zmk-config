@@ -1,0 +1,2 @@
+config LIBRA_BT_R1
+    def_boot $(shields_list_contains, libra_bt_r1)
